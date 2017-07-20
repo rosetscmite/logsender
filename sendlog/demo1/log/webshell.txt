@@ -1,0 +1,3 @@
+<133>Aug 09 17:17:28 hansight ids  [**] [1:3040001:1] WebShell Suspected Detected WebShell Uploaded [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 112.17.230.100:52954 -> 10.10.10.10:80
+<133>Aug 09 17:17:28 hansight ids  [**] [1:3040002:1] WebShell Cknife Shell Command Struct Inbound (PHP) [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 112.17.230.100:52952 -> 10.10.10.10:80
+<133>Aug 09 17:17:28 hansight ids  [**] [1:3020005:1] BackDoor Metasploit Meterpreter Channel Interaction Detected, Likely Interaction With Executable [**] [Classification: Successful User Privilege Gain] [Priority: 1] {TCP} 112.17.230.100:7978 -> 10.10.10.10:50467
