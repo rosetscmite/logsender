@@ -2,7 +2,7 @@
 运行环境：python2.x  
 使用方法：需要哪种场景日志直接进入目录运行client.py
 ## 场景详情
-- Wanacry
+- Wanacry  
   - 触发告警
 
 - demo1
