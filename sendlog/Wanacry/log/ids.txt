@@ -1,2 +1,2 @@
-<133>Aug 09 17:02:07 Hansight-nta IDS  [**] [1:2024297:2] ET EXPLOIT ETERNALBLUE Exploit M2 MS17-010 [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 5.188.10.141:39443 -> 172.16.120.15:445
-<133>Aug 09 17:02:07 Hansight-nta IDS  [**] [1:2024297:2] ET EXPLOIT ETERNALBLUE Exploit M2 MS17-010 [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 51.15.37.185:56943 -> 172.16.120.15:445
+<133>Aug 09 17:02:07 nta IDS  [**] [1:2024297:2] ET EXPLOIT ETERNALBLUE Exploit M2 MS17-010 [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 5.188.10.141:39443 -> 172.16.120.15:445
+<133>Aug 09 17:02:07 nta IDS  [**] [1:2024297:2] ET EXPLOIT ETERNALBLUE Exploit M2 MS17-010 [**] [Classification: Attempted Administrator Privilege Gain] [Priority: 1] {TCP} 51.15.37.185:56943 -> 172.16.120.15:445
