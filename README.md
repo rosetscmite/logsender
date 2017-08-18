@@ -1,15 +1,18 @@
 # logsender Instructions
-运行环境：python2.x  
-使用方法：需要哪种场景日志直接进入目录运行client.py
+## 运行环境：
+python2.x  
+## 使用方法：  
+1.修改client.py中的ep_address变量，指向enterprise采集器地址  
+2.需要哪种场景日志直接进入目录运行client.py
 ## 场景详情
 - Wanacry（热点事件：永恒之蓝）
   - 触发告警
     - 外网主机发起特定端口扫描（自行添加情报）
-    - 外网主机发起MS17-010攻击（自行CEP规则）
-    - sysmon—检测到WannaCry病毒（自行CEP规则）  
+    - 外网主机发起MS17-010攻击（自行添加CEP规则）
+    - sysmon—检测到WannaCry病毒（自行添加CEP规则）  
     - 内网主机发起特定端口扫描（自行添加情报）  
-    - 内网主机发起MS17-010攻击（自行CEP规则）  
-    - sysmon—检测到WannaCry病毒（自行CEP规则）  
+    - 内网主机发起MS17-010攻击（自行添加CEP规则）  
+    - sysmon—检测到WannaCry病毒（自行添加CEP规则）  
     - 内网主机发起特定端口扫描（自行添加情报）
   - 需要事件  
     - 网络连接  
@@ -22,8 +25,8 @@
     - 网站高频404访问（自行添加情报）  
     - 通用web攻击  
     - Web攻击返回状态码200  
-    - 发现webshell后门连接（自行CEP规则）  
-    - 发现metapreter后门连接（自行CEP规则）  
+    - 发现webshell后门连接（自行添加CEP规则）  
+    - 发现metapreter后门连接（自行添加CEP规则）  
     - 针对特定账号的FTP暴力破解  
     - 内网主机针对特定账号的FTP暴力破解  
     - 针对特定主机的FTP暴力破解  
@@ -36,7 +39,18 @@
     - ftp登录
 - demo2（真实案例：smtp暴力破解）
   - 触发告警
-    - 针对特定账号的smtp暴力破解（自行CEP规则）
+    - 针对特定账号的smtp暴力破解（自行添加CEP规则）
   - 需要事件
     - smtp登录（添加smtp解析规则）
-  
+- demo3（APT:震网3代）
+  - 触发告警
+    - 发现疑似震网攻击（自行添加CEP规则）
+    - 内网主机发起MS17-010攻击（自行添加CEP规则）
+  - 需要事件
+    - windows注册表值修改
+    - windows主机镜像加载
+- demo4（blackhat最佳客户端漏洞：CVE-2017-0199）
+  - 触发告警
+    - HTA程序异常调用（自行添加CEP规则）
+  - 需要事件
+    - windows进程创建
